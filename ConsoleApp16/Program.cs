@@ -11,9 +11,9 @@ namespace FitnessApp
         static void Main(string[] args)
         {
             // prompt user for minutes exercise
-            System.Console.Write("Enter how many minutes you exercised: ");
+            Console.Write("Enter how many minutes you exercised: ");
 
-            string minutes = System.Console.ReadLine();
+            string minutes = Console.ReadLine();
 
             // add minute exercise to total
             // display total minuts exercised to the screen
