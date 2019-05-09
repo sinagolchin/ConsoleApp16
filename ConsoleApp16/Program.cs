@@ -17,6 +17,9 @@ namespace FitnessApp
 
             // add minute exercise to total
             // display total minuts exercised to the screen
+            Console.WriteLine("You have exercised for " + minutes + " minutes. ");
+
+            Console.ReadLine();
             // repeat until the user quits
         }
     }
